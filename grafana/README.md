@@ -1,8 +1,8 @@
-## Grafana
+# Grafana
 
-### CVE-2024-9264
+## CVE-2024-9264
 
-#### LFI 
+### LFI 
 
 - file: [grafana-cve-2024-9264-lfi.yaml](./grafana-cve-2024-9264-lfi.yaml)
 
@@ -14,7 +14,7 @@ Please note that you may need to escape slashes when specifying the path of the 
 nuclei -u <URL> -t ./grafana-cve-2024-9264-lfi.yaml -var username=<USER> -var password=<PWD> -var rfile="\/etc\/hosts"
 ```
 
-##### RCE
+#### RCE
 
 - file: [grafana-cve-2024-9264-rce.yaml](./grafana-cve-2024-9264-rce.yaml)
 
