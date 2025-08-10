@@ -32,8 +32,8 @@ dns:
         group: 1
         regex:
           - 'IN\s*CNAME\s*(.+)\.edge(suite|key)\.net'
- 
-  - name: "{{base_hostname}}.edgesuite-staging.net"
+          
+  - name: "{{base_hostname}}.edgekey-staging.net"
     type: A
     matchers:
       - type: word
@@ -46,7 +46,7 @@ dns:
         regex:
           - '(?:[0-9]{1,3}\.){3}[0-9]{1,3}'
 
-  - name: "{{base_hostname}}.edgekey-staging.net" 
+  - name: "{{base_hostname}}.edgesuite-staging.net"
     type: A
     matchers:
       - type: word
