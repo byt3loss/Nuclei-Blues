@@ -1,11 +1,11 @@
-id: akamai-pragma-headers
+id: akamai-pragma-header-vars
 
 info:
-  name: Akamai Pragma Headers
+  name: Akamai Pragma Header Variables Extraction
   author: byt3loss
   severity: info
   description: |
-    Make a request with the Akamai Pragma header to the target. 
+    Sends a request with the Akamai Pragma header to the target. 
     Searches for user defined variables that may reveal some useful information like the origin hostname.
   reference: 
     - https://techdocs.akamai.com/edge-diagnostics/docs/pragma-headers
